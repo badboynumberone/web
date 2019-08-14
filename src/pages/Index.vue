@@ -3,23 +3,22 @@
       <!--头部-->
       <Header></Header>
       <div class="body layout">
-        <div class="left">
-          <Nav></Nav>
-        </div>
-        <div class="right">
-
-        </div>
+        
       </div>
+
+      <!-- Foot -->
+      <Footer></Footer>
   </div>
 </template>
 
 <script>
   import Header from './../components/Header';
+  import Footer from './../components/Footer';
   import Nav from './../components/Nav';
   export default {
     name: 'Index',
     components:{
-      Header,Nav
+      Header,Footer,Nav
     },
     data () {
       return {
