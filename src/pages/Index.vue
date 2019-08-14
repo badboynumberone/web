@@ -3,17 +3,22 @@
       <!--头部-->
       <Header></Header>
       <div class="body layout">
-
+        
       </div>
+
+      <!-- Foot -->
+      <Footer></Footer>
   </div>
 </template>
 
 <script>
-  import Header from './../components/Header';
+  import Header from './../components/Header'
+  import Footer from './../components/Footer';
   export default {
     name: 'Index',
     components:{
-      Header
+      Header,
+      Footer
     },
     data () {
       return {
