@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Index from '@/pages/Index'
 import Description from '@/pages/Description'
 import Require from '@/pages/Require'
+import Feature from '@/pages/Feature'
+import Plan from '@/pages/Plan'
 
 Vue.use(Router)
 
@@ -26,6 +28,16 @@ export default new Router({
       path: '/require',
       name: 'Require',
       component: Require
+    },
+    {
+      path: '/feature',
+      name: 'Feature',
+      component: Feature
+    },
+    {
+      path: '/plan',
+      name: 'Plan',
+      component: Plan
     }
   ]
 })
