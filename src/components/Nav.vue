@@ -1,16 +1,41 @@
 <template>
   <div class="main">
-
+      <div class="container">
+        <h3>项目描述</h3>
+        <ul class="content">
+          <li v-for="(item,index) in navList" :key="index"><a :class="['fill',activeIndex==index?'active':'']" :href="item.href">{{item.word}}</a></li>
+        </ul>
+      </div>
   </div>
 </template>
 
 <script>
   export default {
-    name: 'Header',
-
-    data () {
+    name: 'Nav',
+    props:{
+        navList:{
+          type:Array,
+          required:true,
+          default:function(){
+            return [{
+              word:"导航示例01",
+              href:"http://www.baidu.com"
+            },{
+              word:"导航示例02",
+              href:"http://www.baidu.com"
+            },{
+              word:"导航示例03",
+              href:"http://www.baidu.com"
+            },{
+              word:"导航示例04",
+              href:"http://www.baidu.com"
+            }];
+          }
+        }
+    },
+    data(){
       return {
-        msg: 'Welcome to Your Vue.js App'
+        activeIndex:0
       }
     }
   }
@@ -18,52 +43,28 @@
 
 <style lang="scss" scoped>
   @import "./../assets/styles/mixin";
-  .bottom{
-    @include wh(100%,70px);
-    -moz-box-shadow:0px 1px 2px #2D75E0; -webkit-box-shadow:0px 1px 2px #2D75E0; box-shadow:0px 1px 2px #2D75E0;
-    background: $theme;
-    .content{
-      @include fc;
-      .container{
-        a{
-          display: inline-block;
-          line-height: 70px;
-          padding: 0 20px;
-          @include sc(16px,#fff);
-          font-weight: 400;
-          transition: all 0.5s;
-          &:hover{
-            font-weight: bold;
-            color: $theme;
-            background: #DFDBDC;
-          }
-        }
-        a.active{
-          color: $theme;
-          background: #DFDBDC;
-          font-weight: bold;
-        }
-      }
-    }
+  h3{
+    font-weight: bold;
+    padding-left: 10px;
+    border-left: 5px solid $theme;
+    margin: 20px 0;
   }
-  .top{
-    @include wh(100%,160px);
-    background: url("/static/images/banner.png") repeat-x ;
-    .content{
-      height: 100%;
-      @include fc();
-      img{
-        margin-right: 25px;
+  .content{
+    padding: 30px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #EBEBEB;
+    li{
+      a{
+        display: block;
+        line-height: 40px;
+        text-align: center;
+
       }
-      h1{
+      a.active{
+        border-left: 5px solid $theme;
+        color: $theme;
         font-weight: bold;
-        @include sc(40px,#133971);
-        margin-right: 10px;
-      }
-      p{
-        @include sc(25px,#133971);
-        position: relative;
-        top: 7px;
       }
     }
   }
