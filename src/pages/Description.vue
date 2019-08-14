@@ -2,9 +2,6 @@
   <div class="main">
       <!--头部-->
       <Header></Header>
-      <div class="body layout">
-
-      </div>
   </div>
 </template>
 
@@ -25,7 +22,4 @@
 
 <style lang="scss" scoped>
   @import "./../assets/styles/mixin";
-  .body{
-    height: 600px;
-  }
 </style>
