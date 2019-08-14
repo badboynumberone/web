@@ -37,7 +37,7 @@ export default {
     align-items: center;
     height: 100%;
     p {
-      @include sc(16px, #fff);
+      @include sc(16px,#fff);
       line-height: 24px;
     }
   }
