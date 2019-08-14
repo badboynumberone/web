@@ -5,6 +5,7 @@ import Description from '@/pages/Description'
 import Require from '@/pages/Require'
 import Feature from '@/pages/Feature'
 import Plan from '@/pages/Plan'
+import Declaration from '@/pages/Declaration'
 
 Vue.use(Router)
 
@@ -38,6 +39,11 @@ export default new Router({
       path: '/plan',
       name: 'Plan',
       component: Plan
+    },
+    {
+      path: '/declaration',
+      name: 'Declaration',
+      component: Declaration
     }
   ]
 })
