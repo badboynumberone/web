@@ -12,7 +12,8 @@
       <MethodStep v-if="false"></MethodStep>
       <Result v-if="false"></Result>
       <FaceStudent v-if="false"></FaceStudent>
-      <UseCase v-if="true"></UseCase>
+      <UseCase v-if="false"></UseCase>
+      <Test v-if="true"></Test>
     </div>
     <!-- foot -->
     <Footer></Footer>
@@ -31,6 +32,7 @@ import MethodStep from "../components/description/MethodStep";
 import Result from "../components/description/Result";
 import FaceStudent from "../components/description/FaceStudent";
 import UseCase from "../components/description/UseCase";
+import Test from "../components/description/Test";
 
 export default {
   name: "Description",
@@ -45,7 +47,8 @@ export default {
     MethodStep,
     Result,
     FaceStudent,
-    UseCase
+    UseCase,
+    Test
   },
   data() {
     return {

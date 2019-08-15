@@ -52,6 +52,12 @@
       <img src="./image/hardware.png" alt="">
     </div>
     <p class="two-title">（2）其他计算终端硬件配置要求：无</p>
+    <br>
+
+    <p class="title">用户特殊外置硬件要求（如可穿戴设备等）</p>
+    <p class="two-title">（1）计算机特殊外置硬件要求：无</p>
+    <p class="two-title">（2）其他计算终端特殊外置硬件要求：无</p>
+    <br>
     
   </div>
 </template>
