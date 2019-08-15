@@ -11,9 +11,9 @@
       <Method v-if="false"></Method>
       <MethodStep v-if="false"></MethodStep>
       <Result v-if="false"></Result>
-      <FaceStudent v-if="false"></FaceStudent>
+      <FaceStudent v-if="true"></FaceStudent>
       <UseCase v-if="false"></UseCase>
-      <Test v-if="true"></Test>
+      <Test v-if="false"></Test>
     </div>
     <!-- foot -->
     <Footer></Footer>

@@ -35,11 +35,16 @@
 
     <p class="title">用户非操作系统软件配置要求（如浏览器、特定软件等）</p>
     <p class="two-title">（1）需要特定插件：</p>
-    <p class="content">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1）插件名称&nbsp;&nbsp;Unity Web Player</p>
-    <p class="content">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2）插件容量&nbsp;&nbsp;1.82MB</p>
-    <p class="content">
+    <p class="content">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1）插件名称&nbsp;&nbsp;Unity Web Player &nbsp;&nbsp;插件容量 1MB</p>
+     <p class="content">
         <a href="https://unity3d.com/cn/webplayer" target="_Blank">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载链接: https://unity3d.com/cn/webplayer
+        </a>
+    </p>
+    <p class="content">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2）插件名称插件容量:&nbsp;&nbsp;OWVLabRTESetup &nbsp;&nbsp;插件容量1.82MB</p>
+    <p class="content">
+        <a href="http://elec.owvlab.net/rainier/OWVLabRTESetup.exe" target="_Blank">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下载链接: http://elec.owvlab.net/rainier/OWVLabRTESetup.exe
         </a>
     </p>
     <p class="two-title">（2）其他计算终端非操作系统软件配置要求（需说明是否可提供相关软件下载服务）</p>
